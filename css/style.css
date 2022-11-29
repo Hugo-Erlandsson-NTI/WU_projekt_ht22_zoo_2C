@@ -3,3 +3,45 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    height: 200vh;
+    width: 100%;
+    display: grid;  
+    /* template är tillfälligt tills jag har innehåll för sidorna */
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px 1fr 75px;
+    grid-template-areas: 
+    "he"
+    "na"
+    "xx"
+    "fo";
+}
+
+header {
+    background-color: lightblue;
+    grid-area: he;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+nav {
+    background-color: blue;
+    grid-area: na;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    background-image: url("../misc/igor-starkov-j3e5c72LAuc-unsplash.jpg");
+    background-size: cover;
+}
+
+footer {
+    grid-area: fo;
+}
+
