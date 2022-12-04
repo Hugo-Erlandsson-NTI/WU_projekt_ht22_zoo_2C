@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -28,7 +29,7 @@ header {
 }
 
 nav {
-    background-color: blue;
+    background-color:rgb(91, 31, 5);
     grid-area: na;
     display: flex;
     justify-content: space-evenly;
@@ -36,9 +37,17 @@ nav {
     margin: 0;
 }
 
+.nav_link {
+    /* stylar texten till att se ut som vanlig text och inte länkar även om det är länkar */
+    color: inherit;
+    text-decoration: inherit;
+}
+
 main {
-    background-image: url("../misc/igor-starkov-j3e5c72LAuc-unsplash.jpg");
+    background-image: url("../misc/daan-evers-tKN1WXrzQ3s-unsplash.jpg");
+    background-color: brown;
     background-size: cover;
+    
 }
 
 footer {
