@@ -1,5 +1,4 @@
-articles på startsida ska anpassa sin längd, maintaggen ska få minst en viss längd och sen så mycket den behöver 
-
+navlänkar ruta runt när håller över
 
 gör de andra sidorna, en med medarbetare med grid och flex i
 färgkoordinera

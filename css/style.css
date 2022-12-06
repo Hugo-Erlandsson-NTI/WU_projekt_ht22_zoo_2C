@@ -7,10 +7,8 @@
 }
 
 body {
-    height: 200vh;
-    width: 100%;
-    display: grid;  
-    /* template är tillfälligt tills jag har innehåll för sidorna */
+    min-height: 100vh;
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 50px 1fr 75px;
     grid-template-areas: 
@@ -21,8 +19,7 @@ body {
 }
 
 header {
-    
-    background-color: lightblue;
+    background-color: rgb(114, 131, 111);
     grid-area: he;
     display: flex;
     justify-content: center;
@@ -31,28 +28,22 @@ header {
 }
 
 nav {
-    background-color:rgb(91, 31, 5);
+    background-color:rgb(107, 50, 8);
     grid-area: na;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0;
-    box-shadow: 2px 2px 5px black;
+    border-bottom: 5px dashed white;
 }
 
-.nav_link {
+.nav_link, #huvudtitel {
     /* stylar texten till att se ut som vanlig text och inte länkar även om det är länkar */
     color: inherit;
     text-decoration: inherit;
 }
 
-body {
-    background-color: black;
-}
-
 main {
     background-image: url("../misc/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
-    opacity: 70%;
     background-color: brown;
     background-size: cover;
     display: grid;
@@ -65,10 +56,9 @@ main {
 article {
     padding: 50px;
     margin: 40px;
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(99, 44, 6, 0.85);
     border-radius: 5rem;
-
+    border: 5px dashed white;
 }
 
 #article_left {
@@ -83,6 +73,6 @@ article {
 
 footer {
     grid-area: fo;
-    background-color: rgb(91, 31, 5);
+    background-color: rgb(107, 50, 8);
 }
 
