@@ -1,0 +1,6 @@
+articles på startsida ska anpassa sin längd, maintaggen ska få minst en viss längd och sen så mycket den behöver 
+
+
+gör de andra sidorna, en med medarbetare med grid och flex i
+färgkoordinera
+justera läsbarhet, bra kontrast

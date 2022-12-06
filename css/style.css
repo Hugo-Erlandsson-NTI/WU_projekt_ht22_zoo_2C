@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    color: whitesmoke;
 }
 
 body {
@@ -15,11 +16,12 @@ body {
     grid-template-areas: 
     "he"
     "na"
-    "xx"
+    "ma"
     "fo";
 }
 
 header {
+    
     background-color: lightblue;
     grid-area: he;
     display: flex;
@@ -35,6 +37,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
+    box-shadow: 2px 2px 5px black;
 }
 
 .nav_link {
@@ -43,14 +46,43 @@ nav {
     text-decoration: inherit;
 }
 
+body {
+    background-color: black;
+}
+
 main {
-    background-image: url("../misc/daan-evers-tKN1WXrzQ3s-unsplash.jpg");
+    background-image: url("../misc/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
+    opacity: 70%;
     background-color: brown;
     background-size: cover;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "al ar";
+}
+
+article {
+    padding: 50px;
+    margin: 40px;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 5rem;
+
+}
+
+#article_left {
+    margin-right: 25px;
+    grid-area: al;
+}
+
+#article_right {
+    margin-left: 25px;
+    grid-area: ar;
 }
 
 footer {
     grid-area: fo;
+    background-color: rgb(91, 31, 5);
 }
 
