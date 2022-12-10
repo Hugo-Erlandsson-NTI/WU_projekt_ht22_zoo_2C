@@ -82,18 +82,37 @@ article {
     grid-area: ar;
 }
 
+h2 {
+    margin-bottom: 1rem;
+}
+
 h3 {
     margin-top: 2rem;
 }
 
+.bild_på_anställd {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 30%;
+    border: 3px solid white;
+}
+
 section {
+    font-size: smaller;
+
     height: 15rem;
-    min-width:  10rem;
+    width:  13rem;
 
     margin: 3rem;
+    padding: 1rem;
+
     background-color: rgba(99, 44, 6, 0.85);
     border-radius: 3.5rem;
     border: 0.3rem solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
