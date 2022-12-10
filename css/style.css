@@ -8,9 +8,11 @@
 
 body {
     min-height: 100vh;
+    max-height: fit-content;
+
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 50px 1fr 75px;
+    grid-template-rows: 5rem 3rem 1fr 3rem;
     grid-template-areas: 
     "he"
     "na"
@@ -33,7 +35,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 5px dashed white;
+    border-bottom: 0.3rem solid white;
 }
 
 .nav_link, #huvudtitel {
@@ -44,8 +46,11 @@ nav {
 
 main {
     background-image: url("../misc/ruben-ramirez-xhKG01FN2uk-unsplash.jpg");
-    background-color: brown;
+    background-color: rgb(114, 131, 111);
     background-size: cover;
+}
+
+#main_startsida {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -53,26 +58,45 @@ main {
     "al ar";
 }
 
+#main_om_oss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 article {
-    padding: 50px;
-    margin: 40px;
+    padding: 3rem;
+    margin: 3rem 7rem 3rem 7rem;
     background-color: rgba(99, 44, 6, 0.85);
     border-radius: 5rem;
-    border: 5px dashed white;
+    border: 0.3rem solid white;
 }
 
 #article_left {
-    margin-right: 25px;
+    margin-right: 3rem;
     grid-area: al;
 }
 
 #article_right {
-    margin-left: 25px;
+    margin-left: 3rem;
     grid-area: ar;
+}
+
+h3 {
+    margin-top: 2rem;
+}
+
+section {
+    height: 15rem;
+    min-width:  10rem;
+
+    margin: 3rem;
+    background-color: rgba(99, 44, 6, 0.85);
+    border-radius: 3.5rem;
+    border: 0.3rem solid white;
 }
 
 footer {
     grid-area: fo;
     background-color: rgb(107, 50, 8);
 }
-
