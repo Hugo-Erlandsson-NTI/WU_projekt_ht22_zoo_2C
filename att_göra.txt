@@ -1,12 +1,10 @@
+skissa sista sidan
+gör sista sidan
 
-skissa sidors innehåll
+bild med lagermask, kanske i header, original och psd-fil i misc
+
+testa olika webbläsare
+idébeskrivning, målgrupp
+utvärdering
 
 navlänkar ruta runt när håller över
-kanske bilder i header
-
-gör de andra sidorna, en med medarbetare med grid och flex i
-färgkoordinera
-justera läsbarhet, bra kontrast
-
-kanske staggera artiklar och lägga bilder så det blir mer varierat innehåll
-bakgrundsbild blir inzoomad när den blir för lång på grund av innehåll, antagligen inte ett problem men kom ihåg och kanske lös
