@@ -1,8 +1,5 @@
 
 
-bild med lagermask, kanske i header, original och psd-fil i misc
-kolla att bilder är 300 kb eller mindre, och att de jag använder ligger i img
-
 testa olika webbläsare
 utvärdering
 

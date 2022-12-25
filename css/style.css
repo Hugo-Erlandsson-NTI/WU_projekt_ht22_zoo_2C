@@ -151,7 +151,8 @@ section {
 
 #img_om_oss {
     grid-area: im;
-    height: 50rem;
+    height: 30rem;
+    
     background-image: url("../img/hand_med_karta.png");
     background-size: cover;
 }
