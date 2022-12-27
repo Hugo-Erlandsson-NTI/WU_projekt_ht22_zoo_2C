@@ -1,7 +1,0 @@
-
-
-testa olika webbläsare
-utvärdering
-
-margin till p-tagg men inte i footer
-navlänkar ruta runt när håller över
